@@ -1,0 +1,94 @@
+#mainMenu {
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+#mainMenu > .row {
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+
+}
+
+.table td, .table th {
+    text-align: center !important;
+}
+
+#menu_product {
+    padding: 0 !important;
+}
+
+#menu_customer {
+    padding: 0 !important;
+}
+
+#menu_order {
+    padding: 0 !important;
+}
+
+#mainMenu > .row > div {
+    height: 70px;
+    /*padding-top: 20px;*/
+}
+
+#menu_order a {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+    padding-top: 20px !important;
+}
+
+#menu_customer a {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+    padding-top: 20px !important;
+}
+
+#menu_product a {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+    padding-top: 20px !important;
+}
+
+#menu_order:hover {
+    background-color: darkgrey;
+    opacity: 0.3;
+}
+
+#menu_customer:hover {
+    background-color: darkgrey;
+    opacity: 0.3;
+}
+
+#menu_product:hover {
+    background-color: darkgrey;
+    opacity: 0.3;
+}
+
+#createProduct {
+    margin-bottom: 5px !important;
+}
+
+.fa-trash-alt {
+    color: red;
+}
+
+.fa-edit {
+    color: #1d68a7;
+}
+
+.fa-plus-circle {
+
+}
+.products_table{
+    /*margin: 0!important;*/
+    /*padding: 0 !important;*/
+    padding-top: 10px !important;
+}
